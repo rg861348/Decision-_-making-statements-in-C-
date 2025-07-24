@@ -14,24 +14,170 @@ Switch-case Statement: The switch-case statement is a cleaner way to handle many
 
 Using switch-case makes the code easier to read and manage, especially when dealing with things like menus, options, or commands.
 
-Program 1: Check Even or Odd Algorithm:
+Program 1: Check Even or Odd
 
-Start Input an int num If num % 2 == 0, print "Even" Else, print "Odd" End
+Step-wise Algorithm
 
-Program 2: Check Vowel or Consonant Algorithm:
+1. Start the program.
 
-Start Input a character ch If ch is a vowel (a, e, i, o, u or A, E, I, O, U), print "Vowel" Else, print "Consonant" End
 
-Program 3: Identify the Largest Number Among Three (Nested if) Algorithm:
+2. Declare an integer variable num.
 
-Start Input three numbers a, b, c If a > b and a > c, print "a is largest" Else if b > c, print "b is largest" Else, print "c is largest" End
 
-Program 4: Subject Selector using Switch Case Algorithm:
+3. Prompt the user to enter a number.
 
-Start Display subject menu (1–5) Input user choice Use switch to print subject name based on choice If choice not in 1–5, print "Invalid choice" End
 
-Program 5: Basic Arithmetic Calculator using Switch case Algorithm:
+4. Read the input into num.
 
-Start Input two numbers a, b Display operation menu (+, -, *, /) Input user choice Use switch to perform selected operation If division and b == 0, print "Cannot divide by zero" If invalid choice, print "Invalid operation" Print result End
+
+5. Check if num % 2 == 0
+
+If true, print “Even”.
+
+Else, print “Odd”.
+
+
+
+6. End the program.
+
+
+
+
+ Program 2: Check Vowel or Consonant
+
+Step-wise Algorithm
+
+1. Start the program.
+
+
+2. Declare a character variable ch.
+
+
+3. Prompt the user to enter a character.
+
+
+4. Read input into ch.
+
+
+5. Check if ch is any of: 'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'
+
+If true, print “Vowel”.
+
+Else, print “Consonant”.
+
+
+
+6. End the program.
+
+
+ Program 3: Find Largest Among Three Numbers (Nested if-else)
+
+Step-wise Algorithm
+
+1. Start the program.
+
+
+2. Declare three variables: a, b, c.
+
+
+3. Prompt the user to enter three numbers.
+
+
+4. Read the values into a, b, and c.
+
+
+5. Check the following conditions using nested if-else:
+
+If a > b and a > c, print “a is the largest”.
+
+Else if b > c, print “b is the largest”.
+
+Else, print “c is the largest”.
+
+
+
+6. End the program.
+
+
+ Program 4: Subject Selector using Switch Case
+
+Step-wise Algorithm
+
+1. Start the program.
+
+
+2. Display subject menu (e.g., 1. Math, 2. Physics, etc.).
+
+
+3. Prompt the user to enter their choice (1 to 5).
+
+
+4. Read input into variable choice.
+
+
+5. Use switch(choice):
+
+Case 1: Print "Math"
+
+Case 2: Print "Physics"
+
+Case 3: Print "Chemistry"
+
+Case 4: Print "Biology"
+
+Case 5: Print "Computer Science"
+
+Default: Print “Invalid choice”
+
+
+
+6. End the program.
+
+
+
+
+Program 5: Basic Arithmetic Calculator (Switch Case)
+
+Step-wise Algorithm
+
+1. Start the program.
+
+
+2. Declare two float variables a and b.
+
+
+3. Declare a character variable op for the operator.
+
+
+4. Prompt the user to enter two numbers.
+
+
+5. Read values into a and b.
+
+
+6. Display operation menu (+, -, *, /).
+
+
+7. Prompt the user to enter an operator (op).
+
+
+8. Use switch(op):
+
+Case '+': Compute a + b, print “Sum: result”.
+
+Case '-': Compute a - b, print “Difference: result”.
+
+Case '*': Compute a * b, print “Product: result”.
+
+Case '/':
+
+If b == 0, print “Cannot divide by zero”.
+
+Else compute a / b, print “Quotient: result”.
+
+
+Default: Print “Invalid operation”.
+
+9. End the program.
 
 Conclusion: We learned that if-else is used to check complex conditions and switch-case is suitable for fixed or pre-defined options.
